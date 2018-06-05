@@ -1,0 +1,7 @@
+execution:
+  - scenario: My Scenario
+scenarios:
+  My Scenario:
+    requests:
+      - url: 'https://reqres.in/api/users/'
+        method: GET
