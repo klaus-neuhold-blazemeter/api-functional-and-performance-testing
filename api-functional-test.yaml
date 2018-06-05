@@ -5,3 +5,4 @@ scenarios:
     requests:
       - url: 'https://reqres.in/api/users/'
         method: GET
+        label: My request
