@@ -1,5 +1,7 @@
 execution:
   - scenario: My Scenario
+    concurrency: 1
+    iterations: 1
 scenarios:
   My Scenario:
     requests:
