@@ -7,7 +7,7 @@ execution:
 scenarios:
   quick-test:
     requests:
-    - http://blazedemo.com
+    - url: http://blazedemo.com
       label: load test request
 
 reporting:
