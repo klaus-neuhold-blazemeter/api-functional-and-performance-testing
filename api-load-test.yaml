@@ -9,3 +9,8 @@ scenarios:
     requests:
     - http://blazedemo.com
       label: load test request
+
+reporting:
+- module: passfail
+  criteria:
+  - avg-rt of quick-test>1ms
