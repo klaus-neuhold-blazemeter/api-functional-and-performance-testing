@@ -13,4 +13,4 @@ scenarios:
 reporting:
 - module: passfail
   criteria:
-  - avg-rt of quick-test>1000ms
+  - avg-rt of quick-test>1ms
